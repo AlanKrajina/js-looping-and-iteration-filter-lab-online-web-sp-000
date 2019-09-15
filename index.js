@@ -12,3 +12,10 @@ function fuzzyMatch(arr, criteria){
     return name.slice(0,1) === criteria.slice(0,1);
   });
 }
+
+
+function matchName(arr, criteria){
+  return arr.filter(function(name) {
+    return name.slice(0,1) === criteria.slice(0,1);
+  });
+}
