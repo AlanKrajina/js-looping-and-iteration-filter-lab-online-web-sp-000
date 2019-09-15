@@ -1,6 +1,5 @@
 // Code your solution in this file
-function findMatching(arr1, criteria1) {
-  let arr = arr1.charAt(0).toUpperCase() + arr1.substring(1);
+function findMatching(arr, criteria1) {
   let criteria = criteria1.charAt(0).toUpperCase() + criteria1.substring(1);
 
   return arr.filter(function(obj) {
