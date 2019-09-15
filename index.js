@@ -9,6 +9,6 @@ function findMatching(arr, criteria) {
 
 
 
-function fuzzyMatch(){
+function fuzzyMatch(arr, criteria){
 
 }
