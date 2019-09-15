@@ -6,3 +6,9 @@ function findMatching(arr, criteria) {
     });
   });
 }
+
+
+
+function fuzzyMatch(){
+
+}
