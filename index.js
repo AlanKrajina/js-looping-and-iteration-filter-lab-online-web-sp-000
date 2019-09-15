@@ -12,5 +12,3 @@ function findMatching(arr.charAt(0).toUpperCase(), criteria.charAt(0).toUpperCas
 function fuzzyMatch(){
 
 }
-
-.charAt(0).toUpperCase()
