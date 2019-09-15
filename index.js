@@ -9,6 +9,6 @@ function findMatching(list, name) {
 
 function fuzzyMatch(arr, criteria){
   return arr.filter(function(name) {
-    return name === criteria;
+    return name.slice(0,1) === criteria.slice(0,1);
   });
 }
