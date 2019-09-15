@@ -16,6 +16,6 @@ function fuzzyMatch(arr, criteria){
 
 function matchName(arr, criteria){
   return arr.filter(function(name) {
-    return name.name === criteria.name;
+    return name[name] === criteria[name];
   });
 }
