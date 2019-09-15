@@ -3,7 +3,7 @@
 function findMatching(arr, criteria) {
   return arr.filter(function(obj) {
     return Object.keys(criteria).every(function(c) {
-      return obj[c] == criteria[c];
+      return obj[c] === criteria[c];
     });
   });
 }
